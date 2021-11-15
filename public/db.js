@@ -7,7 +7,7 @@ const indexedDB =
 
 let db;
 
-const request = indexedDB.open("budget", 1);
+const request = indexedDB.open("budgetDb", 1);
 
 request.onupgradeneeded = ({ target }) => {
   let db = target.result;
@@ -26,14 +26,14 @@ request.onerror = function (event) {
 };
 
 function saveRecord(record) {
-  const transaction = db.transaction(["<object store name here>"], "readwrite");
-  const store = transaction.objectStore("<object store name here>");
+  const transaction = db.transaction(["pending"], "readwrite");
+  const store = transaction.objectStore("pending");
   store.add(record);
 }
 
 function checkDatabase() {
-  const transaction = db.transaction(["<object store name here>"], "readwrite");
-  const store = transaction.objectStore("<object store name here>");
+  const transaction = db.transaction(["pending"], "readwrite");
+  const store = transaction.objectStore("pending");
   const getAll = store.getAll();
 
   getAll.onsuccess = function () {
@@ -51,10 +51,10 @@ function checkDatabase() {
         })
         .then(() => {
           const transaction = db.transaction(
-            ["<object store name here>"],
+            ["pending"],
             "readwrite"
           );
-          const store = transaction.objectStore("<object store name here>");
+          const store = transaction.objectStore("pending");
           store.clear();
         });
     }
