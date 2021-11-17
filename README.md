@@ -1,4 +1,4 @@
-<h1 align="center">Progressive Budget</h1>
+<h1 align="center">Progressive Budget Tracker</h1>
 
 <div align="center">
 
@@ -11,30 +11,19 @@
 
 ---
 
-<h4 align="center">Boot Camp HW # 15: Progressive Budget Web Application</h4>
+<h4 style="font-weight: bold;" align="center">Boot Camp HW # 15: Progressive Budget Web Application</h4>
 
 ## Table of Contents
 
 - [About](#about)
-- [Installing](#installing)
 - [Usage](#usage)
 - [Built With](#built_using)
-- [Authors](#authors)
-- [Example URL Out](#example-url-out)
 - [Questions](#questions)
 - [Screenshots](#screenshots)
 
-## <a href="#readme-badge"><img id="usage" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/about.png?raw=true" style="height: 40px"></a>
+## <a href="#readme-badge"><img id="about" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/about.png?raw=true" style="height: 40px"></a>
 
-- This application is a budget tracker. Users can add expenses and incomes and track them using a simple and intuitive UI.
-
-## <a href="#readme-badge"><img id="usage" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/built-using.png?raw=true" style="height: 40px"></a>
-
-- HTML
-- Bootstrap
-- JavaSript
-- Express.js
-- Mongoose.js
+This application is a budget tracker. Users can add expenses and incomes and track them using a simple and intuitive UI.
 
 ## <a href="#readme-badge"><img id="usage" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/usage.png?raw=true" style="height: 40px"></a>
 
@@ -42,12 +31,20 @@
 2. Enter an expense or an income amount using the empty number field box, then click to add or subject from your total budget.
 3. A graph to show your budget will appear once an expense or income is added. You can then keep adding incomes or expenses and the page graph will dynamically adjust.
 
-## <a href="#readme-badge"><img id="usage" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/questions-alt.png?raw=true" style="height: 40px"></a>
+## <a href="#readme-badge"><img id="built_using" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/built-using.png?raw=true" style="height: 40px"></a>
+
+- HTML
+- Bootstrap
+- JavaSript
+- Express.js
+- Mongoose.js
+
+## <a href="#readme-badge"><img id="questions" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/questions-alt.png?raw=true" style="height: 40px"></a>
 
 - If you wish to reach me, feel free to send me an email at cleadi@fastmail.com
 - I can also be reached via LinkedIn: https://www.linkedin.com/in/dillon-cleaver/
 - GitHub profile: https://github.com/cleadi
 
-## <a href="#readme-badge"><img id="usage" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/screenshots.png?raw=true" style="height: 40px"></a>
+## <a href="#readme-badge"><img id="screenshots" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/screenshots.png?raw=true" style="height: 40px"></a>
 
 ![budget-tracker-screenshot](public/assets/images/budget-tracker-screenshot.jpg)
